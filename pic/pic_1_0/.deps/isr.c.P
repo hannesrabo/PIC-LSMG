@@ -1,0 +1,4 @@
+isr.c.o: isr.c isr.h /opt/mcb32tools/include/pic32mx.h spi.h \
+ spi_handler.h game.h random.h globals.h button_handler.h
+isr.c isr.h /opt/mcb32tools/include/pic32mx.h spi.h :
+ spi_handler.h game.h random.h globals.h button_handler.h :

@@ -1,0 +1,6 @@
+button_handler.c.o: button_handler.c button_handler.h \
+ /opt/mcb32tools/include/pic32mx.h game.h random.h globals.h spi.h \
+ spi_handler.h
+button_handler.c button_handler.h :
+ /opt/mcb32tools/include/pic32mx.h game.h random.h globals.h spi.h :
+ spi_handler.h :

@@ -1,0 +1,4 @@
+game.c.o: game.c game.h random.h /opt/mcb32tools/include/pic32mx.h \
+ globals.h spi.h spi_handler.h
+game.c game.h random.h /opt/mcb32tools/include/pic32mx.h :
+ globals.h spi.h spi_handler.h :

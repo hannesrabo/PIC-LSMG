@@ -1,0 +1,4 @@
+spi_handler.c.o: spi_handler.c spi_handler.h \
+ /opt/mcb32tools/include/pic32mx.h game.h random.h globals.h spi.h
+spi_handler.c spi_handler.h :
+ /opt/mcb32tools/include/pic32mx.h game.h random.h globals.h spi.h :

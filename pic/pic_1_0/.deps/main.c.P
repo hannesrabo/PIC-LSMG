@@ -1,0 +1,4 @@
+main.c.o: main.c main.h /opt/mcb32tools/include/pic32mx.h spi.h \
+ spi_handler.h game.h random.h globals.h button_handler.h isr.h
+main.c main.h /opt/mcb32tools/include/pic32mx.h spi.h :
+ spi_handler.h game.h random.h globals.h button_handler.h isr.h :
